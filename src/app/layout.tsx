@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Navigation } from "../components/layout/Navigation";
-//import { Navigation } from "@/components/layout/Navigation";
+import Footer from "../components/layout/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,6 +32,7 @@ export default function RootLayout({
       <body className="bg-pv-bg text-pv-text antialiased min-h-screen">
         <Navigation />
         <main className="pt-16">{children}</main>
+        <Footer />
       </body>
     </html>
   );
