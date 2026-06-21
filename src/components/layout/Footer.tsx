@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 const links = [
@@ -87,11 +88,9 @@ export default function Footer() {
           }}
         >
           <p style={{ fontSize: "12px", color: "#475569" }}>
-            © {year} PulseVault AI · All data stored locally in your browser
+            © {year} PulseVault AI 
           </p>
-          <p style={{ fontSize: "12px", color: "#475569" }}>
-            No external database · Built for demonstration purposes
-          </p>
+          
         </div>
       </div>
     </footer>

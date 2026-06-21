@@ -189,10 +189,7 @@ export default function HomePage() {
         ))}
       </div>
 
-      {/* Footer note */}
-      <p style={{ marginTop: "48px", fontSize: "12px", color: "#475569" }}>
-        All data stored locally in your browser · No external database
-      </p>
+    
     </div>
   );
 }
